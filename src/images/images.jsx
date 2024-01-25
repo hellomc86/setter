@@ -1,0 +1,5 @@
+const IMAGES = {
+    image1 : new URL('./TheRegistan21.png', import.meta.url).href
+}
+
+export default IMAGES
