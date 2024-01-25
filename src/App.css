@@ -14,7 +14,7 @@
   margin: 39px 80px 0px;
   display: flex;
   justify-content: center;
-  position: relative;
+  position: relative;  
 }
 
 .Nav img {
@@ -26,10 +26,8 @@
 
 ul {
   list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
   display: flex;
+  font-size: 23px;
 }
 li {
   margin: 0 17px;
@@ -58,8 +56,7 @@ li a:hover {
 }
 
 .subHeader {
-  margin-top: 40px;
-  background-color: #f0f;
+  margin-top: 40px;  
 }
 
 .subHeaderWrapper {
@@ -86,19 +83,31 @@ li a:hover {
 }
 .articleDate {
   float: right;
-  margin-right: 20px;
+  margin-right: 24px;
 }
 
 .timeText {
   float: right;
+  margin-left: 4px;
 }
 
-.timeClock {
-  float: right;
-  margin: 0 4px;
+.ArticlePre {
+  margin-top: 28px;
+  background-color: aqua;
 }
 
 .articleTitle {
-  margin-top: 28px;
-  background-color: aqua;
+  font-size: 2.5rem;
+  margin-right: 217px;
+  background-color: orange;
+  text-align: left;
+}
+
+.articleTitletextItalic{
+  font-style: italic;
+}
+
+.articleTitletextBold
+{
+  font-weight: bold;
 }

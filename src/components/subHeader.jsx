@@ -1,3 +1,4 @@
+import { CiClock1 } from "react-icons/ci";
 const SubHeader = () => {
   return (
     <div className="subHeader">
@@ -7,10 +8,10 @@ const SubHeader = () => {
           <div className="textWrapper">РАЗБОР</div>
         </div>
         <div className="DateTime">          
-          <div className="articleDate">14 января 2024 года </div>          
-          <div className="timeClock">
-            <img src="/assets/icons/clock-01.svg" />
-          </div>
+          <div className="articleDate">14 января 2024 года </div>    
+          
+          <CiClock1 />
+          
           <div className="timeText"> 12 мин </div>
         </div>
       </div>
