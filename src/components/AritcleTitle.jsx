@@ -5,7 +5,7 @@ const ArticleTitle = () => {
         <span className="articleTitletextItalic">
           Отказ от достигаторства. </span> 
         <span className="articleTitletextBold">
-          Как молодые профессионалы переосмысливают успех
+          Как молодые профессионалы переосмысливают успех
         </span>
       </div>
     

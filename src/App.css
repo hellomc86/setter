@@ -94,11 +94,19 @@ li a:hover {
 .ArticlePre {
   margin-top: 28px;
   background-color: aqua;
+  height: 112px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .articleTitle {
   font-size: 2.5rem;
-  margin-right: 217px;
+  padding: 5p;
+  text-decoration: underline;
+  width: 65vw;
+  
+  text-underline-offset: 25%;
+  text-decoration-color: yellow ;
   background-color: orange;
   text-align: left;
 }
@@ -110,4 +118,19 @@ li a:hover {
 .articleTitletextBold
 {
   font-weight: bold;
+}
+
+.ArticleRead {
+  border: 1px solid black;
+  
+  height: 94px;
+  width: 94px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.readText {   
+  font-size: 1rem;
 }

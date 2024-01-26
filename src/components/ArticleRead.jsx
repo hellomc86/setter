@@ -1,16 +1,14 @@
-const ArticleTitle = () => {
+const ArticleRead = () => {
     return (
       
-        <div className="articleTitle">
-          <span className="articleTitletextItalic">
-            Отказ от достигаторства. </span> 
-          <span className="articleTitletextBold">
-            Как молодые профессионалы переосмысливают успех
-          </span>
+        <div className="ArticleRead">
+          
+          ЧИТАТЬ
+          
         </div>
       
     );
   };
   
-  export default ArticleTitle;
+  export default ArticleRead;
   
