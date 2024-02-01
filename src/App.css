@@ -174,3 +174,14 @@ li a:hover {
   font-weight: 700;
   text-align: left;
 }
+
+.grid-item .DateTime {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.grid-item .DateTime{
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
