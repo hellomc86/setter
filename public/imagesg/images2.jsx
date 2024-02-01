@@ -1,5 +1,5 @@
 const imagesArray = [
-    './imagesg/1.png',  
-   './imagesg/1.png',   
+  new URL('./imagesg/1.png', import.meta.url).href,
+  new URL('./imagesg/1.png', import.meta.url).href,
  ];
 export default imagesArray;
