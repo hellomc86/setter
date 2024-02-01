@@ -25,9 +25,9 @@ function App() {
           <SubHeader />
           <ArticlePre />
           <ImagePre image = {IMAGES.image2}/>
-          <h1>My Gallery App</h1>
+          
           <Gallery images={imagesArray}/>
-          <h1>My Gallery App</h1>
+          
         </div>
       </div>
     </>
