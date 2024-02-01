@@ -7,18 +7,14 @@ import SubHeader from "./components/subHeader";
 import "./App.css";
 import ArticlePre from "./components/ArticlePre";
 import ImagePre from "./components/ArticleImage";
-//import imagesArray from "../public/imagesg/images2";
+import imagesArray from "../public/imagesg/images2";
 import IMAGES from './images/images'
 import Gallery from "./components/Gallery";
 
 
 
 function App() {
-  
-  const imagesArray = [
-    '../public/imagesg/1.png',  
-   '../public/imagesg/1.png',   
- ];
+    
   return (
     <>
       <div className="App">
