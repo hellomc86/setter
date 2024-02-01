@@ -134,3 +134,38 @@ li a:hover {
 .readText {   
   font-size: 1rem;
 }
+
+.ImagePre 
+{
+  background-color: #f0f;
+  
+  margin-top: 39px;
+  
+  height: 450px;
+}
+.ImagePre img {
+  border-radius: 16px;
+  width: 100%;
+}
+
+.Gallery 
+{
+  display: grid;
+  grid-template-columns: auto auto auto;  
+  padding: 10px;
+}
+
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.grid-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
