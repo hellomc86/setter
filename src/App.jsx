@@ -11,6 +11,8 @@ import imagesArray from "../public/imagesg/images2";
 import IMAGES from './images/images'
 import PaginatedItems from "./components/Pagination";
 import BottomImage from "./components/bottomImage";
+import BottomNav from "./components/bottomNav";
+import CopyRight from "./components/CopyRight";
 //import Gallery from "./components/Gallery";
 
 
@@ -27,13 +29,13 @@ function App() {
         <div className="contentWrapper">
           <SubHeader />
           <ArticlePre />
-          <ImagePre image = {IMAGES.image2}/>
-          
+          <ImagePre image = {IMAGES.image2}/>          
           <PaginatedItems itemsPerPage= {12} items={imagesArray}/>
           <BottomImage image = {IMAGES.image3}/>
         </div>
         <Line />
-        <Nav />
+        <BottomNav />
+        <CopyRight/>
 
       </div>
     </>

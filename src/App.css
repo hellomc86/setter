@@ -203,3 +203,16 @@ li a:hover {
   height: 473px;
   border-radius: 8px;
 }
+
+.copyright {
+  margin: 3rem auto;
+  
+  display: flex;
+  justify-content: center;
+}
+
+.copyright p{
+  width: 50%;
+  line-height: 1.5rem;
+  font-size: 0.8rem;
+}
