@@ -1,6 +1,6 @@
 import { CiClock1 } from "react-icons/ci";
 
-const GridItem = ( {image} ) => {
+const GridItem = ( {image, index } ) => {
     
     return (
         
@@ -12,7 +12,7 @@ const GridItem = ( {image} ) => {
         </div>
         <br/>
         <div className="grid-item-text">
-          Инноватор и контрол-фрик. За что критикуют Джеффа Безоса и чем он все-таки хорош        
+          Инноватор и контрол-фрик. За что критикуют Джеффа Безоса и чем он все-таки хорош 
         </div>
         <br />
         <div className="DateTime">          

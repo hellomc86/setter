@@ -9,7 +9,10 @@ import ArticlePre from "./components/ArticlePre";
 import ImagePre from "./components/ArticleImage";
 import imagesArray from "../public/imagesg/images2";
 import IMAGES from './images/images'
-import Gallery from "./components/Gallery";
+import PaginatedItems from "./components/Pagination";
+import BottomImage from "./components/bottomImage";
+//import Gallery from "./components/Gallery";
+
 
 
 
@@ -26,9 +29,12 @@ function App() {
           <ArticlePre />
           <ImagePre image = {IMAGES.image2}/>
           
-          <Gallery images={imagesArray}/>
-          
+          <PaginatedItems itemsPerPage= {12} items={imagesArray}/>
+          <BottomImage image = {IMAGES.image3}/>
         </div>
+        <Line />
+        <Nav />
+
       </div>
     </>
   );
