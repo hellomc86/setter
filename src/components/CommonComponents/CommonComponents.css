@@ -1,0 +1,71 @@
+.Header img {
+    width: 20rem;
+    height: 3.5rem;
+    margin-top: 2rem;
+  }
+  
+  .Nav {
+    margin: 2.5rem 5rem 0;
+    display: flex;
+    justify-content: center;
+    position: relative;  
+  }
+  
+  .Nav img {
+    width: 2rem;
+    height: 2rem;
+    position: absolute;
+    right: 0;
+  }
+  
+  ul {
+    list-style-type: none;
+    display: flex;
+    font-size: 1.125rem;
+    font-weight: 800;
+  }
+  li {
+    margin: 0 1rem;
+  }
+  
+  li a , li a:visited{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #f0f;
+  }
+  
+  .line {
+    margin-top: 2.5rem;
+    border: 1px solid black;
+  }
+  
+
+  .Image
+{
+  margin-top: 3rem;  
+}
+
+.Image img {
+  width: 100%;
+  height: auto;
+  border-radius: 0.5rem;
+}
+
+.copyright {
+  margin: 3rem auto;
+  
+  display: flex;
+  justify-content: center;
+}
+
+.copyright p{
+  width: 50%;
+  line-height: 1.5rem;
+  font-size: 0.8rem;
+}
