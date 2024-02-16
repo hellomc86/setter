@@ -10,14 +10,14 @@ const GridItem = ( {image, index } ) => {
           <div className="textWrapper">ТРЕНДЫ</div>
           <div className="textWrapper">РАЗБОР</div>
         </div>
-        <br/>
-        <br id = "grid-item-br"/>
+        
+        
         <div className="grid-item-text">
           
-          Инноватор и контрол-фрик. За что критикуют Джеффа Безоса и чем он все-таки хорош 
+          Инноватор и контрол-фрик. За что критикуют Джеффа Безоса и чем он все-таки хорош 
           
         </div>
-        <br />
+        
         <div className="DateTime">          
         <div className="articleDate">14 января 2024 года </div>   
           

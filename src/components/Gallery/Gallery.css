@@ -6,10 +6,13 @@
 }
 
 .grid-item {
-  margin-top: 3rem;
-  
-  font-size: 1.875rem;
-  text-align: center;
+  margin-top: 3rem;  
+  font-size: 1.875rem;  
+}
+
+.grid-item .textWrapper
+{
+  margin-top: 1rem;
 }
 
 .grid-item img {
@@ -20,22 +23,18 @@
 }
 
 .grid-item-text {
+  margin-top: 1rem;
   font-size: 1.125rem;
   font-weight: 700;
   text-align: left;
 }
 
-.grid-item .DateTime{
+.grid-item .DateTime {  
+  margin-top: 2rem;
   font-size: 0.875rem;
   font-weight: 500;
   display: flex;
-  justify-content: left;
-  align-items: center;
-}
-
-#grid-item-br
-{
-  display:none;
+  justify-content: left;  
 }
 
 .PaginationWrapper{
@@ -43,8 +42,16 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  position: relative;
 }
 
 .Pagination { 
   cursor: pointer;  
+}
+
+.PaginationWrapper .ToTopWrapper 
+{
+  position: absolute;
+  right: 0;
+  margin: 0;
 }

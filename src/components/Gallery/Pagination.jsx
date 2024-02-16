@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 
 import ReactPaginate from 'react-paginate';
 import Gallery from './Gallery';
+import ToTop from '../ButtonElements/ToTop';
 
 
 function PaginatedItems({ itemsPerPage, items }) {
@@ -40,8 +41,11 @@ function PaginatedItems({ itemsPerPage, items }) {
         previousLabel="< "
         renderOnZeroPageCount={null}
       />
+      
       </div>
+      <ToTop/>
       </div>
+      
     </>
   );
 }
