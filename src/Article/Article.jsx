@@ -1,13 +1,13 @@
-import imagesArray from "./../../public/imagesg/images2";
-import IMAGES from './../images/images'
-import PaginatedItems from "../components/Gallery/Pagination";
+
 import "./Article.css";
 import ToHome from "../components/ButtonElements/ToHome";
-import Image from "../components/CommonComponents/Image";
-import { Link } from "react-router-dom";
+
+
 import ArticleTitle from "../components/Article/AritcleTitlePre";
 import Line from "../components/CommonComponents/line";
 import SubHeader from "../components/Article/subHeader";
+import ArticleBody from "../components/Article/ArticleBody";
+import ArticlePreBottom from "../components/Article/ArticlePreBottom";
 
 
 function Article() {
@@ -18,11 +18,15 @@ function Article() {
        <ArticleTitle />
       <Line />
       <SubHeader/>
-      <Image image={IMAGES.image2} />
+        
+      <ArticleBody />
+      <ArticleBody />
+      <ArticleBody />
+      <Line/>
+      <ArticlePreBottom/>
 
       
       
-      <Image image={IMAGES.image3} />
     </div>
   );
 }

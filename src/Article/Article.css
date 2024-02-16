@@ -1,91 +1,140 @@
-
-.contentWrapper, .articleWrapper {
+.contentWrapper,
+.articleWrapper {
   margin: 0 5rem;
 }
 
-.articleWrapper .articleTitle
-{
+.articleWrapper .articleTitle {
   margin-top: 1.75rem;
 }
 
-.contentWrapper h2 
-{
+.contentWrapper h2 {
   margin-top: 1.75rem;
 }
 
 .subHeader {
-    margin-top: 2.5rem;  
-  }
-  
-  .subHeaderWrapper {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  .subHeaderWrapper .DateTime{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .textWrapper {
-    float: left;
-    padding: 0.25rem 0.5rem;
-    margin: 0 0.5rem;
-    border-radius: 32px;
-    background-color: yellow;
-    font-style: italic;
-    font-size: 0.8175rem;
-  }
-  .textWrapper:first-child {
-    margin-left: 0;
-  }
-  .articleDate {
-    float: right;
-    margin-right: 1.5rem;
-  }
-  
-  .timeText {
-    float: right;
-    margin-left: 0.25rem;
-  }
-  
-  .ArticlePre {    
-    margin-top: 1.75rem;    
-    height: auto;
-    display: flex;
-    justify-content: space-between;
-  }
-  
-  .articleTitle {
-    
-    font-size: 2.5rem;  
-    text-decoration: underline;
-    width: 22em;  
-    text-underline-offset: 25%;
-    text-decoration-color: yellow ;
-    
-    text-align: left;
-  }
-  
-  .article
-  {
-    flex-direction: column;
-    background-color: aqua;
-    
-  }
+  margin-top: 2.5rem;
+}
 
-  .article .articleTitle {
-    display: block;
-  }
- 
-  .articleTitletextItalic{
-    font-style: italic;
-  }
+.subHeaderWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.articleWrapper .subHeaderWrapper {
+  justify-content: left;
+}
+
+.articleWrapper .DateTime {
+  margin-left: 1rem;
+
+}
+
+.subHeaderWrapper .DateTime {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.textWrapper {
   
-  .articleTitletextBold
-  {
-    font-weight: bold;
-  }
+  display: inline-block;
+  width: 6rem;
+  padding: 0.25rem 0.5rem;
+  margin: 0 0.5rem;
+  border-radius: 32px;
+  background-color: yellow;
+  font-style: italic;
+  font-size: 0.8175rem;
+}
+
+.textWrapper:first-child {
+  margin-left: 0;
+}
+
+.articleDate {
+  float: right;
+  margin-right: 1.5rem;
+}
+
+.timeText {
+  float: right;
+  margin-left: 0.25rem;
+}
+
+.ArticlePre {
+  margin-top: 1.75rem;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.articleTitle {
+
+  font-size: 2.5rem;
+  text-decoration: underline;
+  width: 22em;
+  text-underline-offset: 25%;
+  text-decoration-color: yellow;
+
+  text-align: left;
+}
+
+.article {
+  flex-direction: column;
+  background-color: aqua;
+
+}
+
+.article .articleTitle {
+  display: block;
+}
+
+.articleTitletextItalic {
+  font-style: italic;
+}
+
+.articleTitletextBold {
+  font-weight: bold;
+}
+
+
+.ArticleBodyTitle{
+  font-size: 2rem;
+  margin: 2rem auto 0 auto;
+}
+
+.ArticleBodyTitle, .ArticleBodyText
+{
+  text-align: left;
+  width: 60%;
   
+}
+
+.ArticleBodyText
+{
+  margin: 1rem auto 0 auto;
+}
+
+.ArticlePreBottomSub
+{
+  margin-top: 2rem;
+  display: flex;
+}
+
+.ArticlePreBottom .DateTime {
+  margin-left: 0;
+  margin-top: 2.5rem;
+  display: flex;
   
+}
+
+.ArticlePreBottom .articleTitle {
+  margin: 0;
+  padding: 0;  
+  
+}
+
+.ArticlePreBottom .ArticlePre {
+  margin-top: 1rem;
+}
