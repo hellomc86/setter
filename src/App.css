@@ -1,0 +1,94 @@
+#root {
+  max-width: 1280px;  
+  margin: 0 auto;
+  
+}
+
+Link {
+  text-decoration: none;
+  color: black;
+}
+
+@media only screen and (max-width: 450px) {
+  html {
+    font-size: clamp(4px, 1.4vw, 16px) !important;       
+    
+  }
+  .textWrapper
+  {
+    font-size: 2.0rem;
+  }
+  .grid-item .DateTime, .DateTime{
+    font-size: 1.5rem;
+  }
+  .grid-item-text {
+    font-size: 2.75rem;
+  }
+  
+}
+
+
+/* 
+@media only screen and (max-width: 1280px) {
+  html {
+    font-size: clamp(8px, 1.2vw, 16px) !important;       
+    
+  }
+}
+
+@media only screen and (max-width: 1010px) {
+  html {
+    font-size: clamp(6px, 1.2vw, 16px) !important;   
+    
+    
+  }
+}
+
+
+@media only screen and (max-width: 950px) {
+  html {
+    font-size: clamp(6px, 1.15vw, 16px) !important;     
+    
+  }
+}
+
+
+
+@media only screen and (max-width: 780px) {
+  html {    
+    font-size: clamp(8px, 1.12060495436vw, 16px) !important; 
+  }
+}
+
+@media only screen and (max-width: 720px) {
+  html {    
+    font-size: clamp(7px, 1.1vw, 16px) !important; 
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  html {
+    
+    font-size: clamp(5px, 1.0vw, 16px) !important; 
+  }
+}
+
+@media only screen and (max-width: 479px) {
+  html {
+    font-size: clamp(4px, 0.95vw, 16px) !important; 
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  html {
+    font-size: clamp(3px, 0.90vw, 16px) !important; 
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  html {
+    font-size: clamp(2px, 0.85vw, 16px) !important; 
+  }
+}
+
+ */

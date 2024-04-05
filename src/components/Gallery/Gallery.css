@@ -1,0 +1,74 @@
+.Gallery 
+{
+  display: grid;
+  grid-template-columns: auto auto auto; 
+  gap: 1.25rem;   
+}
+
+
+@media only screen and (max-width: 990px) {
+  .Gallery 
+  {    
+    display: grid;
+    grid-template-columns: auto auto;     
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .Gallery 
+  {    
+    display: grid;
+    grid-template-columns: auto;     
+  }
+}
+
+.grid-item {
+  margin-top: 3rem;  
+  font-size: 1.875rem;  
+}
+
+.grid-item .textWrapper
+{
+  margin-top: 1rem;
+}
+
+.grid-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  
+}
+
+.grid-item-text {
+  margin-top: 1rem;
+  font-size: 1.125rem;
+  font-weight: 700;
+  text-align: left;
+}
+
+.grid-item .DateTime {  
+  margin-top: 2rem;
+  font-size: 0.875rem;
+  font-weight: 500;
+  display: flex;
+  justify-content: left;  
+}
+
+.PaginationWrapper{
+  margin-top: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.Pagination { 
+  cursor: pointer;  
+}
+
+.PaginationWrapper .ToTopWrapper 
+{
+  position: absolute;
+  right: 0;
+  margin: 0;
+}

@@ -1,0 +1,164 @@
+.contentWrapper,
+.articleWrapper {
+  margin: 0 5rem;
+  
+}
+
+
+.articleWrapper .articleTitle {
+  margin-top: 1.75rem;
+}
+
+.contentWrapper h2 {
+  margin-top: 1.75rem;
+  text-align: center;
+}
+
+.subHeader {
+  margin-top: 2.5rem;
+}
+
+.subHeaderWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.articleWrapper .subHeaderWrapper {
+  justify-content: left;
+}
+
+.articleWrapper .subHeader .DateTime {
+  margin-left: 1rem;
+
+}
+
+.subHeaderWrapper .DateTime {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.textWrapper {  
+  display: inline-block;
+  width: fit-content;
+  padding: 0.25rem 1.0rem;
+  margin: 0 0.5rem;
+  border-radius: 32px;
+  background-color: #D3F920;
+  font-style: italic;
+  font-size: 0.8175rem;
+  text-align: center;
+  
+}
+
+.textWrapper:first-child {
+  margin-left: 0;
+}
+
+.articleDate {
+  float: right;
+  margin-right: 1.5rem;
+}
+
+.timeText {
+  float: right;
+  margin-left: 0.25rem;
+}
+
+.ArticlePre {
+  margin-top: 1.75rem;  
+  display: flex;
+  justify-content: space-between;
+}
+
+.articleTitle {
+
+  font-size: 2.5rem;
+  text-decoration: underline;
+  width: 22em;
+  text-underline-offset: 25%;
+  text-decoration-color: yellow;
+
+  text-align: left;
+}
+
+.article {
+  flex-direction: column;
+  background-color: aqua;
+
+}
+
+.article .articleTitle {
+  display: block;
+}
+
+.articleTitletextItalic {
+  font-style: italic;
+}
+
+.articleTitletextBold {
+  font-weight: bold;
+}
+
+
+.ArticleBodyTitle{
+  font-size: 2rem;
+  margin: 2rem auto 0 auto;
+}
+
+.ArticleBodyTitle, .ArticleBodyText
+{
+  text-align: left;
+  width: 60%;
+  
+}
+
+
+.ArticleBodyText
+{
+  margin: 1rem auto 0 auto;
+}
+
+
+.ArticlePreBottom
+{
+  margin-top: 5rem;
+  border-radius: 1rem;
+  background-color: #838383;
+}
+
+
+.ArticlePreBottom .TrendsAndDiscusses
+{
+  display: inline-block;
+  margin: 2rem 2rem 0;
+  
+}
+
+.ArticlePreBottom .DateTime {
+  margin: 2.0rem;
+  display: inline-block;
+}
+
+.ArticlePreBottom .articleDate,
+.ArticlePreBottom .timeText {
+  float: none;  
+  display: inline;
+}
+
+
+
+.ArticlePreBottom .articleTitle {
+  margin: 0;
+     
+}
+
+.ArticlePreBottom .ArticlePre {
+  margin: 0 2rem;
+  color: white;
+}
+
+.ArticlePreBottom .readText {
+  color: white;
+}

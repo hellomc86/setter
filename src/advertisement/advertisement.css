@@ -1,0 +1,15 @@
+.contentWrapper .advBodyText {
+
+    margin-top: 2rem;
+    width: 60%;
+    text-align: center;
+    margin: 1rem auto 0 auto;
+}
+.advcontact {
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.advcontact p {
+    margin-top: 1rem;
+}

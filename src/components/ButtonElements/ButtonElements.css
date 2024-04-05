@@ -1,0 +1,63 @@
+.readText {   
+    font-size: 1rem;
+    
+  }
+  
+  .ArticleRead {
+    border: 1px solid black;  
+    height: 5.875rem;
+    width: 5.875rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  }
+
+  .readText a:visited {
+    
+    color: initial;
+  }
+  .ToHome {  
+    text-align: left;  
+    margin-top: 2.5rem;
+    font-size: 1rem;
+    
+    
+  }
+
+  .ToHome .toHomeText 
+  {
+    margin-left: 0.5rem;
+
+  }
+
+  .ArticlePreBottom .ArticleRead {
+    border-color: white;
+    color: white;
+  }
+
+  .ToTopWrapper {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: right;
+
+  }
+
+  .ToTopWrapper a, .ToTopWrapper a:visited
+  {
+    color:black;
+  }
+
+  .ToTop
+  {    
+
+    height: 4rem;
+    width: 4rem;
+    border: 1px solid black;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+  }

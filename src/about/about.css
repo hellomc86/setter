@@ -1,0 +1,15 @@
+.contentWrapper .title {
+
+    line-height: 3rem;
+    font-size: 2rem;
+    width: 30%;
+    margin: 3rem auto;
+    text-align: center;
+    
+}
+
+.contentWrapper .ArticleBodyText {
+
+    text-align: left;
+    margin-top: 2rem;
+}

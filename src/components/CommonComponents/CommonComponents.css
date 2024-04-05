@@ -1,0 +1,113 @@
+.Header {
+  text-align: center;
+}
+.Header img {
+    width: 20rem;
+    height: 3.5rem;
+    margin-top: 2rem;
+    
+  }
+  
+  .Nav {
+    margin: 2.5rem 5rem 0;
+    display: flex;
+    justify-content: center;
+    position: relative;  
+  }
+  
+  .Nav img {
+    width: 2rem;
+    height: 2rem;
+    position: absolute;
+    right: 0;
+  }
+  
+  ul {
+    list-style-type: none;
+    display: flex;
+    font-size: 1.125rem;
+    font-weight: 800;
+  }
+  li {
+    margin: 0 1rem;
+  }
+  
+  li a , li a:visited{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #f0f;
+  }
+  
+  .line {
+    margin-top: 2.5rem;
+    border: 1px solid black;
+  }
+  
+
+  .Image
+{
+  margin-top: 3rem;  
+}
+
+.Image img {
+  width: 100%;
+  height: auto;
+  border-radius: 0.5rem;
+}
+
+.copyright {
+  margin: 3rem auto;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.copyright p{
+  width: 50%;
+  line-height: 1.5rem;
+  font-size: 0.8rem;
+}
+
+.navSearchIcon
+{
+  cursor: pointer;
+}
+
+
+.search-input {
+    min-height: 3rem;
+    line-height: 1.2;
+}
+
+.search-btn {
+  display: none;
+}
+.search-close-icon {
+ display: inline-block; 
+  cursor: pointer; 
+  vertical-align: middle;
+}
+
+.search-block {
+  position: absolute;
+  top: 12rem;
+  min-width: 1280px;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  background-color: #fff;
+}
+
+.search-input{
+  width: 95%;  
+  line-height: normal;
+     border: 0 solid #000;
+  border: 0 solid #000;
+  outline: none;
+  
+}
