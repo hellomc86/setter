@@ -7,22 +7,21 @@ import ToHome from "../components/ButtonElements/ToHome";
 import { useEffect, useState } from "react";
 
 
-function ArticlesByCategory({ articles, filterBy }) {
+function Discuss({ articles }) {
 
-    //const [articlesByCat, setarticlesByCat] = useState([]);
-
-    var articlesByCat = [];
+    
+    const filterBy = "РАЗБОР"
+    const [articlesByDiscuss, setarticlesByDiscuss] = useState([]);
 
     const handleFilter = () => {
-        articlesByCat = articles.filter(article => article.category.toString() === filterBy.toString());
-        //setarticlesByCat(tempArticles);
+        const tempArticles = articles.filter(article => article.category.toString() === filterBy.toString());
+        setarticlesByDiscuss(tempArticles);
     }
-
     useEffect(() => {
         handleFilter();
     }, [])
 
-    console.log(articlesByCat);
+    
 
 
     return (
@@ -30,10 +29,10 @@ function ArticlesByCategory({ articles, filterBy }) {
             <ToHome />
             <h2>{filterBy}</h2>
 
-            <PaginatedItems itemsPerPage={12} items={articlesByCat} />
+            <PaginatedItems itemsPerPage={12} items={articlesByDiscuss} />
             <Image image={IMAGES.image3} />
         </div>
     );
 }
 
-export default ArticlesByCategory;
+export default Discuss;

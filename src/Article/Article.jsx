@@ -9,7 +9,7 @@ import SubHeader from "../components/Article/subHeader";
 import ArticleBody from "../components/Article/ArticleBody";
 import ArticlePreBottom from "../components/Article/ArticlePreBottom";
 import SwipeArticles from "./swiper";
-import imagesArray from "./../../public/imagesg/images2";
+
 import ToTop from "../components/ButtonElements/ToTop";
 import { useParams } from "react-router-dom";
 

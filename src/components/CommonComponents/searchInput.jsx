@@ -37,7 +37,7 @@ const SearchInput = ({ isExpanded, setIsExpanded, isClicked, setIsClicked }) => 
             {isExpanded && <div className="search-block" ref={ref} /* style={{ display: `${isExpanded ? "block" : "none"}`, opacity: 1 }} */>
                 <form onSubmit={handleSubmit}>
                     <input type="text" className="search-input" autoFocus={true} onChange={handleChange} maxLength="256" name="query" placeholder="Поиск" id="search" required="" />
-                    <button type="submit" onSubmit={(e) => setSearch(e.target.value)} className="search-btn w-button" value="Search" />
+                    <button type="submit" onSubmit={handleSubmit} className="search-btn w-button" value="Search" />
                     <MdOutlineClose className="search-close-icon" onClick={() => { setIsExpanded(false) }} />
                 </form>
             </div>}

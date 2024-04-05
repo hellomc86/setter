@@ -16,10 +16,13 @@ import Article from "./Article/Article";
 import About from "./about/about";
 import Advertisement from "./advertisement/advertisement";
 
-import ArticlesByCategory from "./ArticlesByCategory/ArticlesByCategory";
-
-
-
+import Work from "./nav/work";
+import Tech from "./nav/tech";
+import Trends from "./nav/trends";
+import Culture from "./nav/culture";
+import Interview from "./nav/interview";
+import Discuss from "./nav/discuss";
+import Sense from "./nav/sence";
 
 import SearchInput from "./components/CommonComponents/searchInput";
 import { useState, useEffect } from "react";
@@ -43,36 +46,37 @@ useEffect(() => {
   
 }, []);
 
+
+
+
+
   return (
-    <>
-    {articles &&
     <div className="App">
       <Header />
       <Nav isExpanded = {isExpanded} setIsExpanded = {setIsExpanded} setIsClicked = {setIsClicked} articles = {articles}
       setArticles = {setArticles}  />
       <Line />
       <SearchInput isExpanded = {isExpanded} setIsExpanded = {setIsExpanded} isClicked = {isClicked} setIsClicked = {setIsClicked} />
+      
       <Routes>
         <Route path="/" element={ articles.length && <Home articles = {articles} />} />
         <Route path="/article/:id" element={ <Article articles = {articles}  />}/>
-        <Route path="/work" element={<ArticlesByCategory articles = {articles} filterBy={"ДЕЛО"} />} />
-        <Route path="/tech" element={<ArticlesByCategory articles = {articles} filterBy={"ТЕХНО"}  />} />
-        <Route path="/trends" element={<ArticlesByCategory articles = {articles} filterBy={"ТРЕНДЫ"} />} />
-        <Route path="/sence" element={<ArticlesByCategory articles = {articles} filterBy={"СМЫСЛЫ"}  />} />
-        <Route path="/interview" element={<ArticlesByCategory articles = {articles} filterBy={"ИНТЕРВЬЮ"}  />} />
-        <Route path="/culture" element={<ArticlesByCategory articles = {articles} filterBy={"КУЛЬТУРА"}  />} />
-        <Route path="/discuss" element={<ArticlesByCategory articles = {articles} filterBy={"РАЗБОР"}  />} />
+        <Route path="/work" element={<Work articles = {articles} />} />
+        <Route path="/tech" element={<Tech articles = {articles}   />} />
+        <Route path="/trends" element={<Trends articles = {articles}  />} />
+        <Route path="/sence" element={<Sense articles = {articles}   />} />
+        <Route path="/interview" element={<Interview articles = {articles}  />} />
+        <Route path="/culture" element={<Culture articles = {articles}   />} />
+        <Route path="/discuss" element={<Discuss articles = {articles}  />} />
         <Route path="/about" element={<About />} />
-        <Route path="/advertisement" element={<Advertisement />} />
-        
+        <Route path="/advertisement" element={<Advertisement />} /> 
+       
       </Routes>
       <Line />
       <BottomNav />
       <CopyRight />
 
     </div>
-} {!articles && <p>Loding</p>}
-    </>
 
   );
 }
